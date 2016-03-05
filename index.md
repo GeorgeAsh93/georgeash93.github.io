@@ -1,28 +1,34 @@
 ---
 layout: intro
-title: About Me
+title: George Ash
 ---
 {% include JB/setup %}
 
-# FFF Fitness For Fatties
-
-## Fat Friends Forever
-
-### George
-
-#### Ash
-
-Hello Everyone!
-
-
-Insert some stuff about Mizzou and articles?
-
-We may just have a list of all your articles here, and about me on the side.
-
-I think that would probably look best.
-
-Maybe a highlights section on the left side as well?
-
-I need to give you a simple way to edit the site/teach you Git.
-
-<3
+<ul>
+  {% for post in site.posts %}
+	<table style="width:100%">
+	<tr>
+	<td valign="bottom">
+	<img src="{{site.url}}/images/{{post.site_image}}" align="left"/>
+	</td>
+	</tr>
+	<tr>
+	<td valign="top">
+	<b><font size="4"><a href="{{ post.site_link }}">{{ post.title }}</a></font></b><br>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<b>{{ post.date | date_to_string }}</b> 
+	<a href="{{ post.site_link }}">{{ post.site_name }}</a> <br>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	{{ post.content | strip_html | truncatewords:40}}
+            <a href="{{ post.site_link }}">Read more...</a><br><br><br><br>
+	</td>
+	</tr>
+	</table>
+  {% endfor %}
+</ul>
