@@ -8,13 +8,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : John - Cr.Ash
-tagline: Computer Engineer (M.S) 
+title : Ash Press
+tagline: Journalism Portfolio
 author :
-  name : John Ash
-  email : jcrash29[-at-]gmail.com
-  github : bananaslug
-#  twitter : username
+  name : George Ash
+  email : GeorgeAsh93[-at-]gmail.com
+  twitter : GeorgeEAsh
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -100,7 +99,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-61368213-1'
+        tracking_id : '0'
     getclicky :
       site_id : 
     mixpanel :
