@@ -6,7 +6,7 @@ category: Gaming
 site_link: http://www.fangirlthemag.com/2015/05/running-review-the-witcher-3/
 site_name: "FanGirl The Magazine"
 site_image: cropped-Fangirl-logo.png
-tags: [Mac, PC, Playstation 4, Video games, Xbox One]
+tags: [Mac, PC, Playstation 4, Video games, Xbox One, Geralt, in progress, Mac, PC, PS4, review, role playing games, The Witcher, The Witcher 3, video game, Wild Hunt, Xbox]
 comments : false
 ---
 {% include JB/setup %}
